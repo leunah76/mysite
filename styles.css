@@ -9,25 +9,22 @@ h1{
   color: #66bfbf;
   font-family: 'Sacramento', cursive;
   font-size: 5.625em;
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 h2{
   color: #66bfbf;
-  font-family: 'Montserrat', sans-serif;
   font-size: 3.125rem;
   font-weight: normal;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 0 auto;
 }
 
 h3{
   color: #11999E;
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.875rem;
 }
 
 p{
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   line-height: 2;
 }
@@ -65,11 +62,12 @@ a:hover{
 .bottom-cloud{
   position: absolute;
   left: 100px;
-  bottom: 300px;
+  top: 200px;
   width: 10%;
 }
 
 .mountain-img{
+  padding-top: 50px;
   width: 25%;
 }
 .middle-container{
@@ -124,8 +122,6 @@ a:hover{
   font-size: 16px;
 }
 .btn:hover {
-  position: relative;
-  top: 50px;
   background-color: #30E3CB;
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
   -webkit-border-radius: 8px;
@@ -142,15 +138,15 @@ a:hover{
 
 .bottom-container{
   background-color: #66BFBF;
-  padding: 50px 0 50px;
+  padding: 50px 0 50px 0;
 }
 
 .footer-link{
    color: #11999E;
+   font-size: 0.9375rem;
 }
 
 .copyright{
   color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
+  font-size: 0.625rem;
 }
