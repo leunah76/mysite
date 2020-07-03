@@ -12,10 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.4;
 }
-h1 {
-  font-family: "Sacramento";
-  font-size: 3.5rem;
-}
+
 .container {
   max-width: 960px;
   margin: auto;
@@ -47,10 +44,11 @@ h1 {
   height: 100%;
 }
 .showcase h1 {
-  font-size: 4rem;
+  font-family: "Sacramento";
+  font-size: 5rem;
 }
 .showcase p {
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 /* About Me Section */
@@ -161,11 +159,11 @@ footer {
   width: 50px;
 }
 .copyright {
-  font-size: 1rem;
+  font-size: 0.825rem;
   margin-bottom: 20px;
 }
 .footer-link {
-   font-size: 1rem;
+   font-size: 0.8255rem;
 }
 
 /* Portfolio Section */
@@ -182,7 +180,19 @@ footer {
 
 @media screen and (max-width: 991px) {
 
-  .copyright, .footer-link {
-    font-size: 10px;
+  .showcase h1 {
+    font-size: 100px;
+  }
+  .showcase p {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3{
+    font-size: 50px;
+  }
+  p, .btn, .btn:hover {
+    font-size: 30px;
   }
 }
